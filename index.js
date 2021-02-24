@@ -2710,6 +2710,7 @@
 
 function onDocumentLoad() {
     new Runner('.interstitial-wrapper');
+    Runner.instance_.setSpeed(-1)
 }
 
 document.addEventListener('DOMContentLoaded', onDocumentLoad);
